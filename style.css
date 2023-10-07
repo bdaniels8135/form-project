@@ -21,10 +21,6 @@ main{
     flex-direction: column;
 }
 
-form{
-    flex: 3;
-}
-
 header {
     flex: 4;
     position: relative;
@@ -36,6 +32,33 @@ header div {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+form{
+    flex: 3;
+}
+
+form p {
+    font-size: 1.5em;
+    font-weight: 750;
+    padding: 2em 2em 0 1.5em;
+}
+
+form div {
+    position: relative;
+    padding: 2em 2em 0 2em;
+}
+
+form label {
+    position: absolute;
+    top: .75em;
+}
+
+form input {
+    margin: 0 3em 0 0;
+    width: 250px;
+    height: 2em;
+    font-size: 1em;
 }
 
 header div p {
