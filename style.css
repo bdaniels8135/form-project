@@ -23,11 +23,11 @@ main{
 
 header,
 footer {
-    flex: 3;
+    flex: 4;
 }
 
 form{
-    flex: 2;
+    flex: 3;
 }
 
 
