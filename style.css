@@ -86,6 +86,14 @@ form input:focus {
     box-shadow: .2rem .2rem .2rem rgb(200, 200, 200);
 }
 
+form input[type="tel"]:focus:invalid {
+    border: 1px solid blue;
+}
+
+form input[type="tel"]:invalid {
+    border: 1px solid red;
+}
+
 footer {
     flex: 4;
     padding: 2rem;
