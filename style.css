@@ -19,52 +19,82 @@ main{
     width: 60%;
     display: flex;
     flex-direction: column;
+    background-color: rgb(240, 240, 240);
 }
 
 header {
     flex: 4;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 header div {  
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 750;
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
+header div p {
+    margin: 2rem;
+}
+
 form{
-    flex: 3;
+    flex: 0 3 0 ;
+    background-color: white;
+    box-shadow: 1rem .5rem .5rem lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0;
 }
 
 form p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 750;
-    padding: 2em 2em 0 1.5em;
+    padding: 0 2rem;
 }
 
 form div {
     position: relative;
-    padding: 2em 2em 0 2em;
+    padding: 2rem 2rem 0 2rem;
 }
 
 form label {
     position: absolute;
-    top: .75em;
+    top: 1rem;
+    font-size: .8rem;
+    color: rgb(25, 25, 25);
 }
 
 form input {
-    margin: 0 3em 0 0;
+    margin: 0 3rem 0 0;
     width: 250px;
-    height: 2em;
-    font-size: 1em;
-}
-
-header div p {
-    margin: 2em;
+    height: 2rem;
+    font-size: 1rem;
+    padding-left: .5rem;
+    border-radius: .3rem;
+    border: 1px solid rgb(220, 220, 220);
 }
 
 footer {
     flex: 4;
+    padding: 2rem;
+}
+
+footer button {
+    margin-bottom: 2rem;
+    background-color: rgb(85, 105, 70);
+    color: white;
+    font-weight: 750;
+    font-size: 1rem;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(85, 105, 70);
+    font-weight: 600;
 }
