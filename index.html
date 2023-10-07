@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="sidebar">Sidebar</div>
+    <div class="sidebar"></div>
     <main>
         <header>
             <div>
@@ -39,13 +39,13 @@
                 type="tel" 
                 name="tel" 
                 id="tel"
-                pattern="\d{10}">
+                pattern="\d{3}[\-]\d{3}[\-]\d{4}">
             </div>
             <div>
-                <label for="pw_1">PASSWORD</label>
-                <input type="password" name="pw" id="pw_1">
-                <label for="pw_2">CONFIRM PASSWORD</label>
-                <input type="password" name="pw" id="pw_2">
+                <label for="pw">PASSWORD</label>
+                <input type="password" name="pw" id="pw">
+                <label for="confirm-pw">CONFIRM PASSWORD</label>
+                <input type="password" name="confirm-pw" id="confirm-pw">
             </div>
         </form>
         <footer>
