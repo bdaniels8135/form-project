@@ -21,14 +21,27 @@ main{
     flex-direction: column;
 }
 
-header,
-footer {
-    flex: 4;
-}
-
 form{
     flex: 3;
 }
 
+header {
+    flex: 4;
+    position: relative;
+}
 
+header div {  
+    font-size: 1.5em;
+    font-weight: 750;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
+header div p {
+    margin: 2em;
+}
+
+footer {
+    flex: 4;
+}
