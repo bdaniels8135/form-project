@@ -101,8 +101,10 @@ form div {
 form label {
     position: absolute;
     top: 1rem;
-    font-size: .8rem;
-    color: rgb(25, 25, 25);
+    font-size: .7rem;
+    font-weight: 600;
+    color: rgb(70, 70, 70);
+    letter-spacing: .1rem;
 }
 
 form input {
