@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: norse-bold;
+    src: url(./Norse-Bold.otf);
+}
+
 body {
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .sidebar {
@@ -23,13 +29,14 @@ body {
 
 .sidebar .banner {
     background-color: rgba(0, 0, 0, .4);
-    font-size: 5rem;
+    font-size: 6rem;
     color: white;
-    padding: 1rem;
+    padding: 1.5rem;
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-top: 20rem;
+    font-family: 'norse-bold';
 }
 
 .sidebar .attribution {
