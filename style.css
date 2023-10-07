@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
 }
 
 body {
@@ -15,6 +14,7 @@ body {
     background-image: url('./img/halie-west-25xggax4bSA-unsplash.jpg');
     background-size: cover;
     min-width: fit-content;
+    position: relative;
 }
 
 .sidebar img {
@@ -30,6 +30,18 @@ body {
     justify-content: center;
     gap: 1rem;
     margin-top: 20rem;
+}
+
+.sidebar .attribution {
+    position: absolute;
+    bottom: 1rem;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar .attribution a {
+    color: white;
 }
 
 main{
@@ -51,7 +63,6 @@ header div {
     font-weight: 750;
     position: absolute;
     bottom: 0;
-    left: 0;
 }
 
 header div p {
