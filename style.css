@@ -131,6 +131,23 @@ form input:invalid {
     border: 1px solid red;
 }
 
+form input.error {
+    border: 1px solid red;
+}
+
+form label[for='pw']::after {
+    content: '*passwords must match';
+    position: absolute;
+    left: 0;
+    top: 3.2rem;
+    color: red;
+    visibility: hidden;
+}
+
+form label[for='pw'].error::after {
+    visibility: visible;
+}
+
 footer {
     flex: 4;
     padding: 2rem;
