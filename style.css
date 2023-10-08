@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: norse-bold;
+    font-family: 'norse-bold';
     src: url(./Norse-Bold.otf);
 }
 
@@ -36,7 +36,7 @@ body {
     justify-content: center;
     gap: 1rem;
     margin-top: 40vh;
-    font-family: 'norse-bold';
+    font-family: 'norse-bold', Arial, Helvetica, sans-serif;
 }
 
 .sidebar .attribution {
